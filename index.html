@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Upload Details</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div id="parent">
+             <div id="information">
+                 <div id="flex-container">
+                <h1>Add Student Details</h1>
+                <table style="width:90%; margin:auto;">
+                    <tr>
+                       <td>
+                           <label for="rollno" style="font-size:20px;">Roll No.</label>
+                       </td>
+                       <td>
+                           <input type="number" id="rollno"style="height:25px;width:60%">
+                       </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="name" style="font-size:20px;">Name</label>
+                        </td>
+                        <td>
+                            <input type="text" id="name" style="height:25px;width:60%">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="marks" style="font-size:20px;">Marks</label>
+                        </td>
+                        <td>
+                             <input type="number" id="marks" style="height:25px;width:60%">
+                        </td>
+                    </tr>
+                </table>
+                    <div class="upload">
+                        <button type="submit">Add Details</button>
+                    </div>
+             </div>
+             </div>
+             <div id="logs">
+             </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
